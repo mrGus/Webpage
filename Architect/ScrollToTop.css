@@ -1,0 +1,32 @@
+.scroll-to-top-section {
+  position: fixed;
+  bottom: 3.5rem;
+  right: 4.8rem;
+  animation: fadeIn 700ms ease-in-out 1s both;
+  cursor: pointer;
+  color: #39156d;
+  background: white;
+  border-radius: 30px;
+
+  .scroll-btn span.anticon.anticon-up-circle {
+    font-size: 45px;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 688px) {
+  .scroll-to-top-section {
+    bottom: 3rem;
+    right: 2.8rem;
+  }
+}
+
+
